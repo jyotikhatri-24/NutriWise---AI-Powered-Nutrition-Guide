@@ -119,3 +119,4 @@ NutriWise is a web-based nutrition analysis and meal planning platform that help
 
 ### 🌟 NutriWise — Turning AI into Smarter Nutrition Decisions
 
+
