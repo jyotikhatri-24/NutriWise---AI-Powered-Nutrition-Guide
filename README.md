@@ -8,6 +8,7 @@ NutriWise is a web-based nutrition analysis and meal planning platform that help
 ---
 
 ## 🎥 Demo
+https://github.com/jyotikhatri-24/nutriwise/raw/main/demo.mp4
 
 📹 Screen recording demonstrating:
 - User authentication
@@ -118,5 +119,6 @@ NutriWise is a web-based nutrition analysis and meal planning platform that help
 ---
 
 ### 🌟 NutriWise — Turning AI into Smarter Nutrition Decisions
+
 
 
