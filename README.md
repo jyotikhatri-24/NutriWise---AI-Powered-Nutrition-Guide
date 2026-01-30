@@ -1,43 +1,121 @@
-# 🍽 NutriWise  
-NutriWise is a web-based application designed to provide users with detailed nutritional information about various food items, helping individuals make informed dietary choices. Leveraging the power of Google Generative AI, NutriWise delivers instant, comprehensive data on:  
+# 🍽️ NutriWise — AI-Powered Nutrition Guide
 
-- Macronutrients (Protein, Fat, Carbohydrates)  
-- Micronutrients (Vitamins, Minerals)  
-- Calorie Content  
+NutriWise is a web-based nutrition analysis and meal planning platform that helps users make informed dietary decisions using AI-generated insights. It provides detailed nutritional breakdowns and personalized meal plans based on user preferences, health goals, and dietary constraints.
 
-The application also generates personalized meal plans based on user input, ensuring nutritional balance, variety, and enjoyment.  
+> ⚠️ Note: This project is currently not hosted.
+> A screen recording demo showcasing all major features is included in the repository.
 
-## Table of Contents  
-- Features  
-- Technical Requirements  
-- Functional Requirements  
-- Constraints & Challenges  
+---
 
-## Features  
-- User registration and login with JWT authentication  
-- Input forms for dietary preferences, allergies, and health goals  
-- AI-generated personalized meal plans with recipes  
-- Detailed nutritional breakdown per meal 
-- Real-time nutritional information using Google Generative AI.
+## 🎥 Demo
 
-## Technical Requirements  
-- Frontend: React.js, HTML, CSS, JavaScript  
-- Backend: Node.js, Express.js  
-- Database: MongoDB (with Mongoose ODM)  
-- APIs: Google Generative AI, Nutritionix (for food data)  
-- Authentication: JWT (JSON Web Tokens)  
-- Hosting: AWS EC2 (Backend), Vercel/Netlify (Frontend)  
+📹 Screen recording demonstrating:
+- User authentication
+- Nutrition analysis
+- AI-generated meal plans
+- Recipe and calorie breakdown
 
-## Functional Requirements  
-- User authentication with secure JWT-based login and registration  
-- Input forms for dietary preferences, allergies, health conditions, and taste preferences  
-- AI-generated meal plans tailored to the user’s dietary needs  
-- Nutritional breakdown for each meal, including macronutrients and micronutrients  
-- Grocery list generator with export and sharing functionality  
+---
 
-## Constraints & Challenges  
-- Real-time AI integration: Connecting Google Generative AI with Node.js for instant nutritional analysis  
-- Scalability: Ensuring MongoDB efficiently handles large datasets  
-- Performance Optimization: Minimizing API response times for a smooth user experience  
+## ✨ Features
 
-NutriWise - Your AI-Powered Nutrition Guide!
+- Secure user authentication using JWT
+- Personalized AI-generated meal plans
+- Detailed nutritional analysis
+  - Macronutrients (Protein, Carbohydrates, Fats)
+  - Micronutrients (Vitamins, Minerals)
+  - Calorie content
+- Custom inputs for dietary preferences, allergies, and health goals
+- Recipe-level nutritional breakdown
+- Scalable backend architecture
+
+---
+
+## 🧠 Solved Technical Challenges
+
+### ✅ AI Response Parsing
+- Implemented robust JSON extraction from inconsistent AI outputs
+- Designed fallback templates for invalid or partial responses
+
+### ✅ Performance Optimization
+- Reduced AI response time from ~60s to ~20s per query
+- Implemented day-by-day meal plan generation
+- Added loading states and progress indicators
+
+### ✅ Scalability
+- MongoDB indexing for faster queries
+- Stateless REST APIs
+- JWT-based authentication for horizontal scaling
+
+### ✅ Real-time AI Integration
+- Seamless Ollama API integration
+- Timeout handling and retry logic
+- Graceful error recovery for AI failures
+
+---
+
+## 🛠 Technology Stack
+
+### Frontend
+- **React** - UI framework
+- **Tailwind CSS** - Styling
+- **Axios** - HTTP client
+- **React Router** - Navigation
+- **Lucide React** - Icons
+- **Sonner** - Toast notifications
+
+### Backend
+- **Node.js & Express** - Server framework
+- **MongoDB & Mongoose** - Database
+- **Ollama LLaMA3** - AI model for recipe/meal plan generation
+- **JWT** - Authentication
+- **bcrypt** - Password hashing
+
+
+---
+
+## 📋 Functional Requirements
+
+- Secure user login and registration
+- Capture dietary preferences, allergies, and health conditions
+- AI-based personalized meal plan generation
+- Nutritional breakdown per meal
+- Grocery list generation logic
+
+---
+
+## ⚙️ Technical Requirements
+
+- Frontend: React.js, HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT
+- AI Integration: Ollama (LLaMA3)
+
+---
+
+## 🚀 Future Enhancements
+
+- [ ] 📱 Mobile App (React Native)
+- [ ] 🛒 Auto Grocery List Generator
+- [ ] 📊 Nutrition Dashboard with charts
+- [ ] 🍽️ Recipe ratings and favorites
+- [ ] 🔗 Fitness tracker integration (Fitbit, MyFitnessPal)
+- [ ] 🌐 Multi-language support
+- [ ] 🤝 Social sharing features
+- [ ] 📧 Email notifications
+- [ ] 🎨 Theme customization (Dark mode)
+- [ ] 🔍 Advanced recipe search and filters
+
+---
+
+## ⚠️ Constraints & Challenges
+
+- Handling inconsistent AI outputs
+- Optimizing real-time AI response times
+- Designing scalable backend architecture
+
+---
+
+### 🌟 NutriWise — Turning AI into Smarter Nutrition Decisions
+
